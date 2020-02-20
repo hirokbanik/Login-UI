@@ -153,3 +153,40 @@ h2 {
     border: 2px solid #ffffff40;
   }
 }
+
+/* YOUTUBE LINK */
+#watchme {
+  opacity: 0;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  text-decoration: none;
+  padding: 0.4rem 0.4rem 0.5rem 0.6rem;
+  background-color: #eeeeeecc;
+  color: #212121;
+  font-weight: 500;
+  border-radius: 0.3rem 0.3rem 0 0;
+  box-shadow: 0 0 0.4rem 0.2rem #00000060;
+  animation: slideleft 0.5s 1s forwards;
+}
+#yt_logo {
+  /* 	font-size: 1rem; */
+  padding: 0.1rem 0.6rem 0.2rem 0.7rem;
+  background-color: #ff0100;
+  color: #ffffff;
+  border-radius: 0.3rem;
+}
+
+@keyframes slideleft {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 100%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
